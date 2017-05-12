@@ -17,7 +17,7 @@ def command(conf, args):
         # get modif from user
         content.edit_file(conf['main']['edit_cmd'], config.get_confpath())
 
-        new_conf = config.load_conf(check=False)
+        new_conf = config.load_conf()
         try:
             config.check_conf(new_conf)
             ui.message('The configuration file was updated.')
