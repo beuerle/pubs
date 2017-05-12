@@ -15,7 +15,7 @@ Pubs is built with the following principles in mind:
 
 ## Getting started
 
-Create your library (by default, goes to '~/.pubs/').
+Create your library (by default, goes to `~/.pubs/`).
 
     pubs init
 
@@ -97,6 +97,6 @@ You can access the self-documented configuration by using `pubs conf`, and all t
 ## Authors
 
 - [Fabien Benureau](http://fabien.benureau.com)
-- Olivier Mangin
+- [Olivier Mangin](https://github.com/omangin)
 - Jonathan Grizou
 - Arnold Sykosch
